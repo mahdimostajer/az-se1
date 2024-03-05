@@ -5,7 +5,7 @@ import Signup from "./pages/Signup";
 
 export default function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={"/az-se1/"}>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
