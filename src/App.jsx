@@ -1,10 +1,11 @@
-
-
 function App() {
-
-  return (
-    <div>what is this?</div>
-  )
+	return (
+		<>
+			<input placeholder="username:" />
+			<input placeholder="password:" />
+			<button>Login</button>
+		</>
+	);
 }
 
-export default App
+export default App;
