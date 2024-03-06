@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function Signup() {
 	return (
 		<>
@@ -5,7 +6,7 @@ export default function Signup() {
 			<input placeholder="password:" />
 			<input placeholder="confirm password:" />
 			<button>Signup</button>
-			<a href="/login">I already have an account</a>
+			<Link to="/login">I already have an account</Link>
 		</>
 	);
 }
