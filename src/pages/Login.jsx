@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
+
 export default function Login() {
 	return (
 		<>
 			<input placeholder="username:" />
 			<input placeholder="password:" />
 			<button>Login</button>
-			<a href="/signup">Create an account</a>
+			<Link to="/signup">Create an account</Link>
 		</>
 	);
 }
