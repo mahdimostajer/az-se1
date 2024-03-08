@@ -5,7 +5,7 @@ export default function Signup() {
 	const navigate = useNavigate();
 	return (
 		<>
-			<input placeholder="username:" />
+			<input placeholder="username:" style={{ color: "red" }} />
 			<input placeholder="password:" />
 			<input placeholder="confirm password:" />
 			<button>Signup</button>
