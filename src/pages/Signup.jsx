@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export default function Signup() {
 	return (
 		<>
-			<input placeholder="username:" />
+			<input placeholder="username:" style={{ color: "red" }} />
 			<input placeholder="password:" />
 			<input placeholder="confirm password:" />
 			<button>Signup</button>
