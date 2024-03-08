@@ -28,6 +28,10 @@
 بعد از ساخت هر پول ریکوئست پیام زیر نمایش داده می‌شود:
 <img src="./src/assets/report5.png" />
 
+همچنین مراحل تایید review بدین صورت خواهد بود. ابتدا گزینه Approve را انتخاب میکنیم و سپس آماده merge هستیم.
+
+<img src="./src/assets/report15.jpg" />
+
 <h2>
 استفاده از gitignore
 </h2>
