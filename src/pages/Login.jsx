@@ -5,12 +5,10 @@ export default function Login() {
 	const navigate = useNavigate();
 	return (
 		<>
-			<input placeholder="username:" />
+			<input style={{ color: "blue" }} placeholder="username:" />
 			<input placeholder="password:" />
 			<button>Login</button>
 			<Button onClick={() => navigate("/signup")} type="link">Create an account</Button>
 		</>
 	);
 }
-
-
