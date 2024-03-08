@@ -6,7 +6,7 @@ export default function Login() {
 	return (
 		<>
 			<Card className="w-1/3 text-center m-auto mt-7">
-				<Form name="auth" onFinish={() => navigate("/")}>
+				<Form name="auth" onFinish={() => navigate("/dashboard")}>
 					<Form.Item
 						name="username"
 						rules={[
