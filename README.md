@@ -59,6 +59,27 @@
 <img src="./src/assets/report10.png" />
 
 <h2>
+استقرار پروژه
+</h2>
+در نهایت پروژه پیاده سازی شده با استفاده از github actions و workflow روی github pages دیپلوی شد. آدرس آن <a href="https://mahdimostajer.github.io/az-se1">https://mahdimostajer.github.io/az-se1</a> می‌باشد.
+فایل workflow مربوطه در پوشه .github/workflows موجود است.
+تغییرات ایجاد شده در برنچ main با استفاده از github actions دیپلوی می‌شود:
+<img src="./src/assets/report11.png" />
+
+<br/>
+<br/>
+صفحه اصلی:
+<img src="./src/assets/report12.png" />
+<br/>
+<br/>
+صفحه لاگین:
+<img src="./src/assets/report13.png" />
+<br/>
+<br/>
+صفحه رجیستر:
+<img src="./src/assets/report14.png" />
+
+<h2>
 سوالات
 </h2>
 1.	پوشه‌ی .git یک پوشه‌ی مخفی است که در داخل هر مخزن گیت (git repository) قرار دارد. این پوشه شامل تمام اطلاعات مربوط به تاریخچه‌ی نسخه‌ها و تغییرات، شاخه‌ها (branches)، تنظیمات و سایر اطلاعات مورد نیاز برای مدیریت نسخه است. هر تغییر و اقدامی که در گیت انجام می‌دهید، در این پوشه ذخیره می‌شود.
