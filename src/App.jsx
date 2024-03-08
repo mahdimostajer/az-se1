@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import MainPage from "./pages/MainPage";
 import { Layout } from "antd";
+import Dashboard from "./pages/Dashboard";
 
 export default function App() {
   return (
